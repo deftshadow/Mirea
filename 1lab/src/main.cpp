@@ -5,7 +5,6 @@ using namespace std;
 
 
 
-
 int main() {
     int switcher = 1;
     do {
@@ -17,7 +16,7 @@ int main() {
                 cout << "\nTask 1 completed\n";
                 break;
             case 2:
-
+                SECOND();
                 cout << "\nTask 2 completed\n";
                 break;
             default:

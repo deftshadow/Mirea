@@ -16,7 +16,7 @@ int FIRST(){
         goto again;
     }
 
-    choice = stop(check);
+    choice = stoi(check);
      if(choice != 5){
          cout << "\nАлгебраическая форма комплексного числа z = x + y*i\n";
          cout << "\nВведите х для первого числа: ";
@@ -57,7 +57,7 @@ float Enter(){
     again_1:
     cin >> check;
     for (int i = 0; i < check.length(); i++) {
-        if ((check[i] < '0') || (check[i] > '9') && (check[i] != ',')) {
+        if (((check[i] < '0') || (check[i] > '9')) && (check[i] != ',')) {
             cout << "Ошибка ввода!\nВведите число заново: ";
             goto again_1;
         }
