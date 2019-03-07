@@ -4,5 +4,5 @@
 using namespace std;
 
 int SECOND(){
-
+    cout << "123\n";
 }
