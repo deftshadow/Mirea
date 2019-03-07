@@ -12,8 +12,9 @@ struct T {
     void multiplication();
     void div();
     void pr_alfa();
-    float Enter();
+
 };
 
+float Enter();
 
 #endif //INC_1LAB_COMPLEX_H

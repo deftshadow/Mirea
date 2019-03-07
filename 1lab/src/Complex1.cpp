@@ -56,13 +56,13 @@ float Enter(){
     string check;
     again_1:
     cin >> check;
-    for (int i = 0; i < proverka.length(); i++) {
-        if ((proverka[i] < '0') || (proverka[i] > '9') && (proverka[i] != ',')) {
+    for (int i = 0; i < check.length(); i++) {
+        if ((check[i] < '0') || (check[i] > '9') && (check[i] != ',')) {
             cout << "Ошибка ввода!\nВведите число заново: ";
             goto again_1;
         }
     }
-    return stof(proverka);
+    return stof(check);
 }
 
 
