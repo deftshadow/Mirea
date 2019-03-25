@@ -3,8 +3,6 @@
 #include <string>
 using namespace std;
 
-
-
 int main() {
     int switcher = 1;
     do {

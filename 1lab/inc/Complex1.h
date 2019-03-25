@@ -16,6 +16,12 @@ struct T {
 
 };
 
+struct R {
+    float x;
+    float y;
+};
+
+
 float Enter();
 
 #endif //INC_1LAB_COMPLEX_H
