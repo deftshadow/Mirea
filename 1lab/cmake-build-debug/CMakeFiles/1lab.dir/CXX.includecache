@@ -15,12 +15,8 @@ Complex1.h
 /Users/arinadrakon/CLionProjects/OOP/1lab/src/Complex1.h
 string
 -
-
-/Users/arinadrakon/CLionProjects/OOP/1lab/src/main.cpp
-iostream
+fstream
 -
-Complex1.h
-/Users/arinadrakon/CLionProjects/OOP/1lab/src/Complex1.h
-string
+math.h
 -
 

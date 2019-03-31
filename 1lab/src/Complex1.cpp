@@ -54,13 +54,34 @@ int FIRST(){
 
 float Enter(){
     string check;
+    bool indikator;
+    int k;
     again_1:
+    indikator = false;
+    k = 0;
     cin >> check;
-    for (int i = 0; i < check.length(); i++) {
-        if (((check[i] < '0') || (check[i] > '9')) && (check[i] != ',')) {
-            cout << "Ошибка ввода!\nВведите число заново: ";
-            goto again_1;
-        }
+    if ((check[0] == '0') && (check[1] == '0'))
+        indikator = true;
+    if ((check[0] == '-') && check.length() == 1)
+        indikator = true;
+    if ((check[0] == '-') && (check[1] == '.'))
+        indikator = true;
+    if (((check[0] < '0') || (check[0] > '9')) && (check[0] != '-'))
+        indikator = true;
+    for (int i = 1; i < check.length(); i++)
+        if (check[i] == '.')
+            k++;
+    for (int i = 1; i < check.length(); i++)
+        if (((check[i] < '0') || (check[i] > '9')) && (check[i] != '.'))
+            indikator = true;
+    if(k > 1)
+        indikator = true;
+    for (int i = 1; i < check.length(); i++)
+        if (check[i] == '.')
+            check[i] = ',';
+    if(indikator) {
+        cerr << "Ошибка ввода!\nВведите число заново: ";
+        goto again_1;
     }
     return stof(check);
 }
