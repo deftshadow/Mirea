@@ -10,32 +10,23 @@ int FIRST();
 
 class Child {
 private:
-    string ChildName;
-    string ChildSurname;
-    int ChildAge;
+    string name;
+    string surname;
+    int age;
 
 public:
-    void SetName(string ChildNmame){
-        name = ChildNmame;
+    void Setter(){
+        cout << "Ведите имя ребенка:";
+        cin >> name;
+        cout << "Введите фамилию ребека:";
+        cin >> surname;
+        cout << "Ведите возраст:";
+        cin >> age;
     }
-
-    string GetName(){
-        return name;
-    }
-
-    void SetSurname(string ChildSurname){
-        surname = ChildSurname;
-    }
-
-    string GetSurname(){
-        return surname;
-    }
-
-    void SetAge(int ChildAge){
-        age = ChildAge;
-    }
-    int GetAge(){
-        return age;
+    void Getter(){
+        cout << "Имя:" << name << '\n';
+        cout << "Фамилия:" << surname << '\n';
+        cout << "Возраст:" << age << '\n';
     }
 };
 

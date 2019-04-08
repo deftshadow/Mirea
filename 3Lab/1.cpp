@@ -1,29 +1,21 @@
 #include <iostream>
 #include <string>
+#include "1.h"
 using namespace std;
 
 
 int FIRST() {
-    Child child;
+    Child ChildFirst;
+    Child ChildSecond;
 
-    string name;
-    string surname;
-    cout << "Ведите имя ребенка:";
-    getline(cin, name);
-    cout << "Введите фамилию ребека:";
-    getline(cin, surname);
-    cout << "Ведите возраст:";
+    ChildFirst.Setter();
+    ChildSecond.Setter();
 
-    //Сохранение имени,фамилии,возраста в объект класса Child
-    child.SetName(name);
-    child.SetSurname(surname);
-    child.SetAge(age);
+    cout << "Данные первого ребенка: \n";
+    ChildFirst.Getter();
 
-    cout << "Данные ребенка:\n";
-    cout << "Имя:" << child.GetName() << '\n';
-    cout << "Фамилия:" << child.GetSurname() << '\n';
-    cout << "Возраст:" << child.SetAge() << '\n';
+    cout << "\nДанные второго ребенка: \n";
+    ChildSecond.Getter();
 
-    delete child;
     return 0;
 }
