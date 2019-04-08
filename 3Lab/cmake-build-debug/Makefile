@@ -123,32 +123,59 @@ depend:
 	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/build
 .PHONY : 3Lab/fast
 
-1.o: 1.cpp.o
+2.o: 2.cpp.o
 
-.PHONY : 1.o
+.PHONY : 2.o
 
 # target to build an object file
-1.cpp.o:
-	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/1.cpp.o
-.PHONY : 1.cpp.o
+2.cpp.o:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/2.cpp.o
+.PHONY : 2.cpp.o
 
-1.i: 1.cpp.i
+2.i: 2.cpp.i
 
-.PHONY : 1.i
+.PHONY : 2.i
 
 # target to preprocess a source file
-1.cpp.i:
-	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/1.cpp.i
-.PHONY : 1.cpp.i
+2.cpp.i:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/2.cpp.i
+.PHONY : 2.cpp.i
 
-1.s: 1.cpp.s
+2.s: 2.cpp.s
 
-.PHONY : 1.s
+.PHONY : 2.s
 
 # target to generate assembly for a file
-1.cpp.s:
-	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/1.cpp.s
-.PHONY : 1.cpp.s
+2.cpp.s:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/2.cpp.s
+.PHONY : 2.cpp.s
+
+Sources/1.o: Sources/1.cpp.o
+
+.PHONY : Sources/1.o
+
+# target to build an object file
+Sources/1.cpp.o:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/1.cpp.o
+.PHONY : Sources/1.cpp.o
+
+Sources/1.i: Sources/1.cpp.i
+
+.PHONY : Sources/1.i
+
+# target to preprocess a source file
+Sources/1.cpp.i:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/1.cpp.i
+.PHONY : Sources/1.cpp.i
+
+Sources/1.s: Sources/1.cpp.s
+
+.PHONY : Sources/1.s
+
+# target to generate assembly for a file
+Sources/1.cpp.s:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/1.cpp.s
+.PHONY : Sources/1.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 3Lab"
-	@echo "... 1.o"
-	@echo "... 1.i"
-	@echo "... 1.s"
+	@echo "... 2.o"
+	@echo "... 2.i"
+	@echo "... 2.s"
+	@echo "... Sources/1.o"
+	@echo "... Sources/1.i"
+	@echo "... Sources/1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

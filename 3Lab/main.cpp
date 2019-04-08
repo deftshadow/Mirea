@@ -1,5 +1,7 @@
 #include <iostream>
-#include "1.h"
+#include "Headers/1.h"
+#include "2.h"
+
 using namespace std;
 
 int main() {
@@ -13,7 +15,7 @@ int main() {
                 cout << "\nTask 1 completed\n";
                 break;
             case 2:
-
+                SECOND();
                 cout << "\nTask 2 completed\n";
                 break;
             case 3:

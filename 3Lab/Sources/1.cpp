@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "1.h"
+#include "../Headers/1.h"
 using namespace std;
 
 
@@ -11,7 +11,7 @@ int FIRST() {
     ChildFirst.Setter();
     ChildSecond.Setter();
 
-    cout << "Данные первого ребенка: \n";
+    cout << "\nДанные первого ребенка: \n";
     ChildFirst.Getter();
 
     cout << "\nДанные второго ребенка: \n";

@@ -78,10 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/1.cpp">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/2.cpp">
 			<Option target="3Lab"/>
 		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/1.h">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/2.h">
+			<Option target="3Lab"/>
+		</Unit>
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/1.h">
+			<Option target="3Lab"/>
+		</Unit>
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/1.cpp">
 			<Option target="3Lab"/>
 		</Unit>
 		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/main.cpp">

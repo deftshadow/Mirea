@@ -7,7 +7,6 @@ using namespace std;
 
 int FIRST();
 
-
 class Child {
 private:
     string name;
@@ -29,11 +28,5 @@ public:
         cout << "Возраст:" << age << '\n';
     }
 };
-
-
-
-
-
-
 
 #endif //INC_3LAB_HEADER_H

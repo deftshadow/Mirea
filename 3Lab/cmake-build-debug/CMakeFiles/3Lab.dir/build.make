@@ -70,32 +70,47 @@ CMakeFiles/3Lab.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3Lab.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arinadrakon/CLionProjects/OOP/3Lab/main.cpp -o CMakeFiles/3Lab.dir/main.cpp.s
 
-CMakeFiles/3Lab.dir/1.cpp.o: CMakeFiles/3Lab.dir/flags.make
-CMakeFiles/3Lab.dir/1.cpp.o: ../1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3Lab.dir/1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3Lab.dir/1.cpp.o -c /Users/arinadrakon/CLionProjects/OOP/3Lab/1.cpp
+CMakeFiles/3Lab.dir/Sources/1.cpp.o: CMakeFiles/3Lab.dir/flags.make
+CMakeFiles/3Lab.dir/Sources/1.cpp.o: ../Sources/1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3Lab.dir/Sources/1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3Lab.dir/Sources/1.cpp.o -c /Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/1.cpp
 
-CMakeFiles/3Lab.dir/1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3Lab.dir/1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arinadrakon/CLionProjects/OOP/3Lab/1.cpp > CMakeFiles/3Lab.dir/1.cpp.i
+CMakeFiles/3Lab.dir/Sources/1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3Lab.dir/Sources/1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/1.cpp > CMakeFiles/3Lab.dir/Sources/1.cpp.i
 
-CMakeFiles/3Lab.dir/1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3Lab.dir/1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arinadrakon/CLionProjects/OOP/3Lab/1.cpp -o CMakeFiles/3Lab.dir/1.cpp.s
+CMakeFiles/3Lab.dir/Sources/1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3Lab.dir/Sources/1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/1.cpp -o CMakeFiles/3Lab.dir/Sources/1.cpp.s
+
+CMakeFiles/3Lab.dir/2.cpp.o: CMakeFiles/3Lab.dir/flags.make
+CMakeFiles/3Lab.dir/2.cpp.o: ../2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3Lab.dir/2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3Lab.dir/2.cpp.o -c /Users/arinadrakon/CLionProjects/OOP/3Lab/2.cpp
+
+CMakeFiles/3Lab.dir/2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3Lab.dir/2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arinadrakon/CLionProjects/OOP/3Lab/2.cpp > CMakeFiles/3Lab.dir/2.cpp.i
+
+CMakeFiles/3Lab.dir/2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3Lab.dir/2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arinadrakon/CLionProjects/OOP/3Lab/2.cpp -o CMakeFiles/3Lab.dir/2.cpp.s
 
 # Object files for target 3Lab
 3Lab_OBJECTS = \
 "CMakeFiles/3Lab.dir/main.cpp.o" \
-"CMakeFiles/3Lab.dir/1.cpp.o"
+"CMakeFiles/3Lab.dir/Sources/1.cpp.o" \
+"CMakeFiles/3Lab.dir/2.cpp.o"
 
 # External object files for target 3Lab
 3Lab_EXTERNAL_OBJECTS =
 
 3Lab: CMakeFiles/3Lab.dir/main.cpp.o
-3Lab: CMakeFiles/3Lab.dir/1.cpp.o
+3Lab: CMakeFiles/3Lab.dir/Sources/1.cpp.o
+3Lab: CMakeFiles/3Lab.dir/2.cpp.o
 3Lab: CMakeFiles/3Lab.dir/build.make
 3Lab: CMakeFiles/3Lab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 3Lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 3Lab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3Lab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
