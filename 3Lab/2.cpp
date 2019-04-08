@@ -10,6 +10,16 @@ void Tiles:: getData() {
     cout << "\nСтоимость:" << price;
 }
 
+void Tiles::Setter(){
+    cout << "Ведите название бренда:";
+    cin >> brand;
+    cout << "Ведите высоту:";
+    cin >> size_h;
+    cout << "Введите ширину:";
+    cin >> size_w;
+    cout << "Ведите стоимость:";
+    cin >>price;
+}
 
 int SECOND(){
     Tiles firstTiles;

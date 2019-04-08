@@ -14,17 +14,7 @@ public:
     string brand;
     float size_h, size_w, price;
 
-    void Setter(){
-        cout << "Ведите название бренда:";
-        cin >> brand;
-        cout << "Ведите высоту:";
-        cin >> size_h;
-        cout << "Введите ширину:";
-        cin >> size_w;
-        cout << "Ведите стоимость:";
-        cin >>price;
-    }
-
+    void Setter();
     void getData();
 
 };
