@@ -33,5 +33,4 @@ int SECOND(){
 
     cout << "\n\nВторой кафель:\n";
     firstTiles.getData();
-
 }
