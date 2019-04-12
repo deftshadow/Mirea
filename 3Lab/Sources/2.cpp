@@ -1,5 +1,5 @@
 #include <iostream>
-#include "2.h"
+#include "../Headers/2.h"
 using namespace std;
 
 
@@ -33,4 +33,5 @@ int SECOND(){
 
     cout << "\n\nВторой кафель:\n";
     firstTiles.getData();
+    return 0;
 }

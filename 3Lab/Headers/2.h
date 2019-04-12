@@ -1,7 +1,3 @@
-//
-// Created by Арина Дракон on 08/04/2019.
-//
-
 #ifndef INC_3LAB_2_H
 #define INC_3LAB_2_H
 

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/3Lab.dir/main.cpp.o"
   "CMakeFiles/3Lab.dir/Sources/1.cpp.o"
-  "CMakeFiles/3Lab.dir/2.cpp.o"
+  "CMakeFiles/3Lab.dir/Sources/2.cpp.o"
+  "CMakeFiles/3Lab.dir/Sources/3.cpp.o"
+  "CMakeFiles/3Lab.dir/4.cpp.o"
   "3Lab.pdb"
   "3Lab"
 )

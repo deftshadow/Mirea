@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/build
 .PHONY : 3Lab/fast
 
-2.o: 2.cpp.o
+4.o: 4.cpp.o
 
-.PHONY : 2.o
+.PHONY : 4.o
 
 # target to build an object file
-2.cpp.o:
-	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/2.cpp.o
-.PHONY : 2.cpp.o
+4.cpp.o:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/4.cpp.o
+.PHONY : 4.cpp.o
 
-2.i: 2.cpp.i
+4.i: 4.cpp.i
 
-.PHONY : 2.i
+.PHONY : 4.i
 
 # target to preprocess a source file
-2.cpp.i:
-	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/2.cpp.i
-.PHONY : 2.cpp.i
+4.cpp.i:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/4.cpp.i
+.PHONY : 4.cpp.i
 
-2.s: 2.cpp.s
+4.s: 4.cpp.s
 
-.PHONY : 2.s
+.PHONY : 4.s
 
 # target to generate assembly for a file
-2.cpp.s:
-	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/2.cpp.s
-.PHONY : 2.cpp.s
+4.cpp.s:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/4.cpp.s
+.PHONY : 4.cpp.s
 
 Sources/1.o: Sources/1.cpp.o
 
@@ -176,6 +176,60 @@ Sources/1.s: Sources/1.cpp.s
 Sources/1.cpp.s:
 	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/1.cpp.s
 .PHONY : Sources/1.cpp.s
+
+Sources/2.o: Sources/2.cpp.o
+
+.PHONY : Sources/2.o
+
+# target to build an object file
+Sources/2.cpp.o:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/2.cpp.o
+.PHONY : Sources/2.cpp.o
+
+Sources/2.i: Sources/2.cpp.i
+
+.PHONY : Sources/2.i
+
+# target to preprocess a source file
+Sources/2.cpp.i:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/2.cpp.i
+.PHONY : Sources/2.cpp.i
+
+Sources/2.s: Sources/2.cpp.s
+
+.PHONY : Sources/2.s
+
+# target to generate assembly for a file
+Sources/2.cpp.s:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/2.cpp.s
+.PHONY : Sources/2.cpp.s
+
+Sources/3.o: Sources/3.cpp.o
+
+.PHONY : Sources/3.o
+
+# target to build an object file
+Sources/3.cpp.o:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/3.cpp.o
+.PHONY : Sources/3.cpp.o
+
+Sources/3.i: Sources/3.cpp.i
+
+.PHONY : Sources/3.i
+
+# target to preprocess a source file
+Sources/3.cpp.i:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/3.cpp.i
+.PHONY : Sources/3.cpp.i
+
+Sources/3.s: Sources/3.cpp.s
+
+.PHONY : Sources/3.s
+
+# target to generate assembly for a file
+Sources/3.cpp.s:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/3.cpp.s
+.PHONY : Sources/3.cpp.s
 
 main.o: main.cpp.o
 
@@ -213,12 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 3Lab"
-	@echo "... 2.o"
-	@echo "... 2.i"
-	@echo "... 2.s"
+	@echo "... 4.o"
+	@echo "... 4.i"
+	@echo "... 4.s"
 	@echo "... Sources/1.o"
 	@echo "... Sources/1.i"
 	@echo "... Sources/1.s"
+	@echo "... Sources/2.o"
+	@echo "... Sources/2.i"
+	@echo "... Sources/2.s"
+	@echo "... Sources/3.o"
+	@echo "... Sources/3.i"
+	@echo "... Sources/3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
