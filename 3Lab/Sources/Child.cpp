@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "../Headers/1.h"
+#include "../Headers/Child.h"
 using namespace std;
 
 

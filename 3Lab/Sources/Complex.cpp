@@ -1,4 +1,4 @@
-#include "../Headers/3.h"
+#include "../Headers/Complex.h"
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -34,5 +34,5 @@ void Complex::Getter(){
 void Complex::ABC(){
     auto result = sqrt(x * x + y * y);
     cout << "Модуль числа:" << result;
-
 }
+

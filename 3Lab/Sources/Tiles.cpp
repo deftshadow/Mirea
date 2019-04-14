@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../Headers/2.h"
+#include "../Headers/Tiles.h"
 using namespace std;
 
 

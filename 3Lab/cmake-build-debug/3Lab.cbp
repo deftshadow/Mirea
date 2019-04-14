@@ -78,28 +78,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/4.cpp">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Child.h">
 			<Option target="3Lab"/>
 		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/4.h">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Complex.h">
 			<Option target="3Lab"/>
 		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/1.h">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Tiles.h">
 			<Option target="3Lab"/>
 		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/2.h">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Child.cpp">
 			<Option target="3Lab"/>
 		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/3.h">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Complex.cpp">
 			<Option target="3Lab"/>
 		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/1.cpp">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Tiles.cpp">
 			<Option target="3Lab"/>
 		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/2.cpp">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.cpp">
 			<Option target="3Lab"/>
 		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/3.cpp">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.h">
 			<Option target="3Lab"/>
 		</Unit>
 		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/main.cpp">

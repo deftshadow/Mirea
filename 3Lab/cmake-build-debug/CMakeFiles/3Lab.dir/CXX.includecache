@@ -6,27 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/arinadrakon/CLionProjects/OOP/3Lab/4.h
-
-/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/1.h
-string
--
-
-/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/2.h
-string
--
-
-/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/3.h
-
-/Users/arinadrakon/CLionProjects/OOP/3Lab/main.cpp
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.cpp
 iostream
 -
-Headers/1.h
-/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/1.h
-Headers/2.h
-/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/2.h
-Headers/3.h
-/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/3.h
-4.h
-/Users/arinadrakon/CLionProjects/OOP/3Lab/4.h
+Vector.h
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.h
+math.h
+-
+
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.h
 

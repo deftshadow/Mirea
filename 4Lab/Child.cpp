@@ -1,7 +1,8 @@
-#include "4.h"
+#include "Child.h"
 #include <iostream>
 using namespace std;
-
 int FOURTH(){
+    Child child;
 
 }
+
