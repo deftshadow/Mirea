@@ -12,9 +12,8 @@ private:
     int age;
 
 public:
-    Child();
+
     Child(const string &name = "None", const string &surname = "None", int age = 0);
-    Child(const Child &source);
     ~Child(){}
 
     void Getter();

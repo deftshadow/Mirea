@@ -1,5 +1,9 @@
 #include <iostream>
-#include "Child.h"
+#include "Headers/Child.h"
+#include "Headers/Tiles.h"
+#include "Headers/Complex.h"
+#include "Vector.h"
+
 using namespace std;
 
 int main() {
@@ -13,15 +17,15 @@ int main() {
                     cout << "\nTask 1 completed\n";
                     break;
                 case 2:
-
+                    SECOND();
                     cout << "\nTask 2 completed\n";
                     break;
                 case 3:
-
+                    THIRD();
                     cout << "\nTask 3 completed\n";
                     break;
                 case 4:
-
+                    FOURTH();
                     cout << "\nTask 4 completed\n";
                     break;
                 default:

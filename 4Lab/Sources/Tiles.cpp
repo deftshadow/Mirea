@@ -1,0 +1,45 @@
+#include "../Headers/Tiles.h"
+#include <iostream>
+using namespace std;
+
+int SECOND(){
+    Tiles firstTiles;
+    Tiles secondTiles;
+
+    firstTiles.Setter();
+    secondTiles.Setter();
+
+    cout << "\n\nПервый кафель:\n";
+    firstTiles.getData();
+
+    cout << "\n\nВторой кафель:\n";
+    firstTiles.getData();
+    return 0;
+
+}
+
+
+void Tiles:: getData() {
+    cout << "Бренд:" << brand;
+    cout << "\nВысота:" << size_h;
+    cout << "\nШирина:" << size_w;
+    cout << "\nСтоимость:" << price;
+}
+
+void Tiles::Setter(){
+    cout << "Ведите название бренда:";
+    cin >> brand;
+    cout << "Ведите высоту:";
+    cin >> size_h;
+    cout << "Введите ширину:";
+    cin >> size_w;
+    cout << "Ведите стоимость:";
+    cin >>price;
+}
+
+
+Tiles::Tiles(const string &brand, float size_h, float size_w, float price) : brand(brand), size_h(size_h),
+                                                                             size_w(size_w), price(price) {}
+
+Tiles::~Tiles() {}
+
