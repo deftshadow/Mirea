@@ -57,6 +57,7 @@ void Vector::DIF(Vector f1,Vector f2) {
     y = f1.y - f2.y;
     z = f1.z - f2.z;
 
+
 }
 
 void Vector:: SUM(Vector f1, Vector f2){
