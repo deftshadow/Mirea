@@ -37,9 +37,30 @@ void Tiles::Setter(){
     cin >>price;
 }
 
+Tiles::Tiles() {
+    brand = "None";
+    size_h = 0;
+    size_w = 0;
+    price = 0;
+}
 
-Tiles::Tiles(const string &brand, float size_h, float size_w, float price) : brand(brand), size_h(size_h),
-                                                                             size_w(size_w), price(price) {}
+Tiles::Tiles(string brandVal, float size_hVal, float size_wVal) {
+    brand = brandVal;
+    size_h = size_hVal;
+    size_w = size_wVal;
+    price = 0;
+}
+
+Tiles::Tiles(string brandVal, float size_hVal, float size_wVal, float priceVal) : brand(brandVal), size_h(size_hVal), size_w(size_wVal), price(priceVal){}
+
+Tiles::Tiles(const Tiles &object) {
+    brand = object.brand;
+    size_h = object.size_h;
+    size_w = object.size_w;
+    price = object.price;
+}
+
+
 
 Tiles::~Tiles() {}
 

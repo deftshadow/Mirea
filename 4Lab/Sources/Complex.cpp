@@ -31,7 +31,25 @@ void Complex::ABC(){
     cout << "Модуль числа:" << result;
 }
 
-Complex::Complex(float x, float y) : x(x), y(y) {}
+
+Complex::Complex() {
+    x = 0;
+    y = 0;
+}
+
+Complex::Complex(float x_yVal) {
+    x = x_yVal;
+    y = x_yVal;
+}
+
+Complex::Complex(float xVal, float yVal) : x(xVal), y(yVal) {}
+
+Complex::Complex(const Complex &object) {
+    x = object.x;
+    y = object.y;
+}
+
+
 
 Complex::~Complex() {}
 

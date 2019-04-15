@@ -13,7 +13,10 @@ public:
     void SUM(Vector f1, Vector f2);
     void DIF(Vector f1, Vector f2);
 
-    Vector(float x=0, float y=0, float z=0);
+    Vector();
+    Vector(float xVal, float yVal, float zVal);
+    Vector(float x_y_zVal);
+    Vector(const Vector &object);
 
     ~Vector();
 

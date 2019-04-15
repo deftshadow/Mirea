@@ -66,6 +66,28 @@ void Vector:: SUM(Vector f1, Vector f2){
     z = f1.z + f2.z;
 }
 
-Vector::Vector(float x, float y, float z) : x(x), y(y), z(z) {}
+
+Vector::Vector(const Vector &object) {
+    x = object.x;
+    y = object.y;
+    z = object.z;
+}
+
+
+Vector::Vector() {
+    x = 0;
+    y = 0;
+    z = 0;
+}
+
+Vector::Vector(float x_y_zVal) {
+    x = x_y_zVal;
+    y = x_y_zVal;
+    z = x_y_zVal;
+}
+
+
+Vector::Vector(float xVal, float yVal, float zVal) : x(xVal), y(yVal), z(zVal) {}
+
 
 Vector::~Vector() {}

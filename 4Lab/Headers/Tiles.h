@@ -12,7 +12,13 @@ public:
     void Setter();
     void getData();
 
-    Tiles(const string &brand = "None", float size_h = 0, float size_w =0, float price=0);
+    Tiles();
+
+    Tiles(string brandVal, float size_hVal, float size_wVal);
+
+    Tiles(string brandVal, float size_hVal, float size_wVal, float priceVal);
+
+    Tiles(const Tiles &object);
 
     ~Tiles();
 

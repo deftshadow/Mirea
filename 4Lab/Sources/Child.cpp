@@ -19,7 +19,6 @@ int FIRST() {
 
 
 
-Child::Child(const string &name, const string &surname, int age): name(name), surname(surname), age(age){}
 
 
 void Child:: Setter() {
@@ -38,5 +37,25 @@ void Child :: Getter() {
         cout << "Возраст:" << age << '\n';
     }
 
+
+Child::Child() {
+    name = "None";
+    surname = "None";
+    age = 0;
+}
+
+Child::Child(string nameVal, string surnameVal) {
+    name = nameVal;
+    surname = surnameVal;
+    age = 0;
+}
+
+Child::Child(string nameVal, string surnameVal, int ageVal) : name(nameVal), surname(surnameVal), age(ageVal) {}
+
+Child::Child(const Child &object) {
+    name = object.name;
+    surname = object.surname;
+    age = object.age;
+}
 
 

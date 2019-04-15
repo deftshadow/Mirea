@@ -13,7 +13,15 @@ private:
 
 public:
 
-    Child(const string &name = "None", const string &surname = "None", int age = 0);
+    Child();
+
+    Child(string nameVal, string surnameVal);
+
+    Child(string nameVal, string surnameVal, int ageVal);
+
+    Child(const Child &object);
+
+
     ~Child(){}
 
     void Getter();

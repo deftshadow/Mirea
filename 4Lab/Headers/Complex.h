@@ -12,7 +12,13 @@ public:
     void Getter();
     void ABC();
 
-    Complex(float x=0, float y=0);
+    Complex();
+
+    Complex(float x_yVal);
+
+    Complex(float xVal, float yVal);
+
+    Complex(const Complex &object);
 
     ~Complex();
 
