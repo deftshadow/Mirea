@@ -10,11 +10,11 @@ int main() {
         cin >> switcher;
         switch (switcher) {
             case 1:
-                Complex();
+                FIRST();
                 cout << "\nTask 1 completed\n";
                 break;
             case 2:
-                Vector();
+                SECOND();
                 cout << "\nTask 2 completed\n";
                 break;
             default:
