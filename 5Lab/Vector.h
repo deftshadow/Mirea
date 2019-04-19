@@ -11,9 +11,9 @@ private:
     float x,y,z;
 public:
     Vector(float x=0, float y=0, float z=0);
-    Vector &Vector:: operator (const Vector  &rbk);
-    bool Vector:: operator==(const Vector &rbk);
-    bool Vector::operator!=(const Vector &rbk);
+    Vector & operator =(const Vector  &rbk);
+    bool operator==(const Vector &rbk);
+    bool operator!=(const Vector &rbk);
 
     friend ostream &operator << (ostream &ostream1, const Vector &vector);
 

@@ -11,7 +11,7 @@ int SECOND(){
     cout << "Первый вектор:\n";
     cin >> first;
 
-    cout << "\n\nВторой вектор:\n";
+    cout << "Второй вектор:\n";
     cin >> second;
 
     if (first == second)
@@ -26,8 +26,8 @@ Vector::Vector(float x, float y, float z) : x(x), y(y), z(z) {}
 
 
 Vector &Vector:: operator= (const Vector  &rbk){
-    cout << "Перегрузка переменных:\n";
-    cout << "X:";
+    cout << "Перегрузка операторов:\n";
+
     x = rbk.x;
     cout << "Y:";
     y = rbk.y;
@@ -59,5 +59,5 @@ istream &operator >> (istream &istream1, const Vector &vector){
     cin >>vector.y;
     cout << "Z:";
     cin >> vector.z;
-
+    return istream1;
 }
