@@ -43,13 +43,13 @@ bool Vector::operator !=(const Vector &rbk){
 }
 
 
-ostream &operator<< (ostream &stream, const Vector &vector){
+ostream &operator << (ostream &stream, Vector &vector){
     cout << "Vector:";
     stream<<"X:"<<vector.x << "Y:" << vector.y << "Z:" << vector.z << "\n";
     return stream;
 }
 
-istream &operator>> (istream &stream, const Vector &vector){
+istream &operator >> (istream &stream,  Vector &vector){
     cout << "X:";
     stream >> vector.x;
     cout << "Y:";
