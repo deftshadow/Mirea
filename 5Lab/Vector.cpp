@@ -39,17 +39,17 @@ bool Vector:: operator ==(const Vector &rbk ){
 
 bool Vector::operator !=(const Vector &rbk){
     cerr << "ERROR!";
-    return !(sqrt(x*x + y * y + z * z) == sqrt(rbk.x*rbk.x + rbk.y*rbk.y + rbk.z*rbk.z));
+    return (sqrt(x*x + y * y + z * z) != sqrt(rbk.x*rbk.x + rbk.y*rbk.y + rbk.z*rbk.z));
 }
 
 
-ostream &operator << (ostream &stream, const Vector &vector){
+ostream &operator<< (ostream &stream, const Vector &vector){
     cout << "Vector:";
     stream<<"X:"<<vector.x << "Y:" << vector.y << "Z:" << vector.z << "\n";
     return stream;
 }
 
-istream &operator >> (istream &stream, const Vector &vector){
+istream &operator>> (istream &stream, const Vector &vector){
     cout << "X:";
     stream >> vector.x;
     cout << "Y:";
