@@ -38,7 +38,7 @@ bool Vector:: operator ==(const Vector &rbk ){
 }
 
 bool Vector::operator !=(const Vector &rbk){
-    cerr << "ERROR";
+    cerr << "ERROR!";
     return !(sqrt(x*x + y * y + z * z) == sqrt(rbk.x*rbk.x + rbk.y*rbk.y + rbk.z*rbk.z));
 }
 
