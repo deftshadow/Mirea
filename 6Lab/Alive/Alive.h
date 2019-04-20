@@ -8,7 +8,7 @@ using namespace std;
 int SECOND();
 class Alive {
 protected:
-    string name, DoSmth;
+    string name, DoSmth, eat;
 public:
     void Setter();
     void Getter();

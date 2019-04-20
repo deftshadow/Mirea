@@ -31,45 +31,40 @@ int SECOND(){
 void Alive::Setter() {
     cout << "Название:";
     cin >> name;
-    cout << "Введите, что он должен делать:";
+    cout << "Чем питается?";
+    cin >> eat;
+    cout << "Введите,что animal должен делать:";
     cin >> DoSmth;
 }
 
 void Alive::Getter() {
     cout << "Название:" << name<< '\n';
+    cout << "Питается:" << eat<<'\n';
     cout << "Что он делает:" << DoSmth << '\n';
 }
 
 
 void Bird::SetterBird() {
-    cout << "Название птицы:";
-    cin >> name;
-    cout << "Введите, что она должна сделать:";
-    cin >> DoSmth;
+    return Setter();
 }
 
 void Bird ::GetterBird(){
-    cout << "Название:" << name<< '\n';
-    cout << "Что она делает:" << DoSmth << '\n';
+    return Getter();
 }
 
 
 void Beast::SetterAnimal() {
-    cout << "Название:" << name<< '\n';
-    cout << "Что оно делает:" << DoSmth << '\n';
+    return Setter();
 }
 
 void Beast::GetterAnimal() {
-    cout << "Название:" << name<< '\n';
-    cout << "Что оно делает:" << DoSmth << '\n';
+    return Getter();
 }
 
 void Fish::SetterFish() {
-    cout << "Название:" << name<< '\n';
-    cout << "Что она делает:" << DoSmth << '\n';
+    return Setter();
 }
 
 void Fish ::GetterFish() {
-    cout << "Название:" << name<< '\n';
-    cout << "Что она делает:" << DoSmth << '\n';
+    return Getter();
 }
