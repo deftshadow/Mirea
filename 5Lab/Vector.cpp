@@ -26,12 +26,8 @@ Vector::Vector(float x, float y, float z) : x(x), y(y), z(z) {}
 
 
 Vector &Vector:: operator= (const Vector  &rbk){
-    cout << "Перегрузка операторов:\n";
-
     x = rbk.x;
-    cout << "Y:";
     y = rbk.y;
-    cout << "Z:";
     z = rbk.z;
     return *this;
 }
@@ -47,17 +43,18 @@ bool Vector::operator !=(const Vector &rbk){
 }
 
 
-ostream &operator << (ostream &ostream1, const Vector &vector){
-    ostream1<<"X:"<<vector.x << "Y:" << vector.y << "Z:" << vector.z << "\n";
-    return ostream1;
+ostream &operator << (ostream &stream, const Vector &vector){
+    cout << "Vector:";
+    stream<<"X:"<<vector.x << "Y:" << vector.y << "Z:" << vector.z << "\n";
+    return stream;
 }
 
-istream &operator >> (istream &istream1, const Vector &vector){
+istream &operator >> (istream &stream, const Vector &vector){
     cout << "X:";
-    cin >> vector.x;
+    stream >> vector.x;
     cout << "Y:";
-    cin >>vector.y;
+    stream >>vector.y;
     cout << "Z:";
-    cin >> vector.z;
-    return istream1;
+    stream >> vector.z;
+    return stream;
 }

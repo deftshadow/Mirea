@@ -15,9 +15,9 @@ public:
     bool operator==(const Vector &rbk);
     bool operator!=(const Vector &rbk);
 
-    friend ostream &operator << (ostream &ostream1, const Vector &vector);
+    friend ostream &operator << (ostream &stream, const Vector &vector);
 
-    friend istream &operator >> (istream &istream1, const Vector &vector);
+    friend istream &operator >> (istream &stream, const Vector &vector);
 };
 
 
