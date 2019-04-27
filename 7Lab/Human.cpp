@@ -12,10 +12,6 @@ int FIRST(){
 
     Human*human = &student;
     human->print();
-
-
-
-
     return 0;
 }
 
