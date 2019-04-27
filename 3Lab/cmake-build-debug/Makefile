@@ -204,32 +204,32 @@ Sources/Tiles.cpp.s:
 	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/Tiles.cpp.s
 .PHONY : Sources/Tiles.cpp.s
 
-Vector.o: Vector.cpp.o
+Sources/Vector.o: Sources/Vector.cpp.o
 
-.PHONY : Vector.o
+.PHONY : Sources/Vector.o
 
 # target to build an object file
-Vector.cpp.o:
-	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Vector.cpp.o
-.PHONY : Vector.cpp.o
+Sources/Vector.cpp.o:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/Vector.cpp.o
+.PHONY : Sources/Vector.cpp.o
 
-Vector.i: Vector.cpp.i
+Sources/Vector.i: Sources/Vector.cpp.i
 
-.PHONY : Vector.i
+.PHONY : Sources/Vector.i
 
 # target to preprocess a source file
-Vector.cpp.i:
-	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Vector.cpp.i
-.PHONY : Vector.cpp.i
+Sources/Vector.cpp.i:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/Vector.cpp.i
+.PHONY : Sources/Vector.cpp.i
 
-Vector.s: Vector.cpp.s
+Sources/Vector.s: Sources/Vector.cpp.s
 
-.PHONY : Vector.s
+.PHONY : Sources/Vector.s
 
 # target to generate assembly for a file
-Vector.cpp.s:
-	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Vector.cpp.s
-.PHONY : Vector.cpp.s
+Sources/Vector.cpp.s:
+	$(MAKE) -f CMakeFiles/3Lab.dir/build.make CMakeFiles/3Lab.dir/Sources/Vector.cpp.s
+.PHONY : Sources/Vector.cpp.s
 
 main.o: main.cpp.o
 
@@ -276,9 +276,9 @@ help:
 	@echo "... Sources/Tiles.o"
 	@echo "... Sources/Tiles.i"
 	@echo "... Sources/Tiles.s"
-	@echo "... Vector.o"
-	@echo "... Vector.i"
-	@echo "... Vector.s"
+	@echo "... Sources/Vector.o"
+	@echo "... Sources/Vector.i"
+	@echo "... Sources/Vector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

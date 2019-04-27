@@ -87,6 +87,9 @@
 		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Tiles.h">
 			<Option target="3Lab"/>
 		</Unit>
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Vector.h">
+			<Option target="3Lab"/>
+		</Unit>
 		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Child.cpp">
 			<Option target="3Lab"/>
 		</Unit>
@@ -96,10 +99,7 @@
 		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Tiles.cpp">
 			<Option target="3Lab"/>
 		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.cpp">
-			<Option target="3Lab"/>
-		</Unit>
-		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.h">
+		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Vector.cpp">
 			<Option target="3Lab"/>
 		</Unit>
 		<Unit filename="/Users/arinadrakon/CLionProjects/OOP/3Lab/main.cpp">

@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Child.cpp" "/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles/3Lab.dir/Sources/Child.cpp.o"
   "/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Complex.cpp" "/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles/3Lab.dir/Sources/Complex.cpp.o"
   "/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Tiles.cpp" "/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles/3Lab.dir/Sources/Tiles.cpp.o"
-  "/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.cpp" "/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles/3Lab.dir/Vector.cpp.o"
+  "/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Vector.cpp" "/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles/3Lab.dir/Sources/Vector.cpp.o"
   "/Users/arinadrakon/CLionProjects/OOP/3Lab/main.cpp" "/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles/3Lab.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

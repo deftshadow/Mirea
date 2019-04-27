@@ -109,18 +109,18 @@ CMakeFiles/3Lab.dir/Sources/Complex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3Lab.dir/Sources/Complex.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Complex.cpp -o CMakeFiles/3Lab.dir/Sources/Complex.cpp.s
 
-CMakeFiles/3Lab.dir/Vector.cpp.o: CMakeFiles/3Lab.dir/flags.make
-CMakeFiles/3Lab.dir/Vector.cpp.o: ../Vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/3Lab.dir/Vector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3Lab.dir/Vector.cpp.o -c /Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.cpp
+CMakeFiles/3Lab.dir/Sources/Vector.cpp.o: CMakeFiles/3Lab.dir/flags.make
+CMakeFiles/3Lab.dir/Sources/Vector.cpp.o: ../Sources/Vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/3Lab.dir/Sources/Vector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3Lab.dir/Sources/Vector.cpp.o -c /Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Vector.cpp
 
-CMakeFiles/3Lab.dir/Vector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3Lab.dir/Vector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.cpp > CMakeFiles/3Lab.dir/Vector.cpp.i
+CMakeFiles/3Lab.dir/Sources/Vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3Lab.dir/Sources/Vector.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Vector.cpp > CMakeFiles/3Lab.dir/Sources/Vector.cpp.i
 
-CMakeFiles/3Lab.dir/Vector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3Lab.dir/Vector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.cpp -o CMakeFiles/3Lab.dir/Vector.cpp.s
+CMakeFiles/3Lab.dir/Sources/Vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3Lab.dir/Sources/Vector.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Vector.cpp -o CMakeFiles/3Lab.dir/Sources/Vector.cpp.s
 
 # Object files for target 3Lab
 3Lab_OBJECTS = \
@@ -128,7 +128,7 @@ CMakeFiles/3Lab.dir/Vector.cpp.s: cmake_force
 "CMakeFiles/3Lab.dir/Sources/Child.cpp.o" \
 "CMakeFiles/3Lab.dir/Sources/Tiles.cpp.o" \
 "CMakeFiles/3Lab.dir/Sources/Complex.cpp.o" \
-"CMakeFiles/3Lab.dir/Vector.cpp.o"
+"CMakeFiles/3Lab.dir/Sources/Vector.cpp.o"
 
 # External object files for target 3Lab
 3Lab_EXTERNAL_OBJECTS =
@@ -137,7 +137,7 @@ CMakeFiles/3Lab.dir/Vector.cpp.s: cmake_force
 3Lab: CMakeFiles/3Lab.dir/Sources/Child.cpp.o
 3Lab: CMakeFiles/3Lab.dir/Sources/Tiles.cpp.o
 3Lab: CMakeFiles/3Lab.dir/Sources/Complex.cpp.o
-3Lab: CMakeFiles/3Lab.dir/Vector.cpp.o
+3Lab: CMakeFiles/3Lab.dir/Sources/Vector.cpp.o
 3Lab: CMakeFiles/3Lab.dir/build.make
 3Lab: CMakeFiles/3Lab.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arinadrakon/CLionProjects/OOP/3Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 3Lab"
