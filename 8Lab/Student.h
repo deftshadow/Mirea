@@ -7,16 +7,11 @@ int FIRST();
 
 class Student {
 private:
-    string name, surname, midname;
+    string name, surname;
     int age;
 public:
-    Student(const string &name = "NONE", const string &surname = "NONE", const string &midname = "NONE", int age = 0);
-    Student(const Student &source);
-
-
-
-
-
+    void Setter();
+    void Getter();
 };
 
 
