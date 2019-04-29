@@ -10,8 +10,6 @@ int FIRST(){
     cout << "ВВЕДИТЕ КОЛИЧЕСТВО СТУДЕНТОВ:";
     cin >> Count;
     vector<Student> Group(Count);
-
-
     try {
         for (int i =0 ; i < Group.size() ; ++i) {
             cout << '\n' << i + 1 << ")";
@@ -32,6 +30,7 @@ int FIRST(){
 
     return false;
 }
+
 
 
 
