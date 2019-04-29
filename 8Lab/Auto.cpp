@@ -11,11 +11,11 @@ int THIRD(){
 
         AutoQue.push(autoo);
 
-        cout << "\nВывод очереди" << endl;
-        cout << "В очереди " << AutoQue.size() << " машин!\n" << endl;
+        cout << "\nВывод очереди" << '\n';
+        cout << "В очереди " << AutoQue.size() << " машин!\n" << '\n';
         while (!AutoQue.empty())
         {
-            cout << AutoQue.front() << endl;
+            cout << AutoQue.front() << '\n';
             AutoQue.pop();
         }
     }
@@ -24,7 +24,6 @@ int THIRD(){
         cout << ex.what() << '\n';
         cerr << "ERROR!";
     }
-
 
 }
 
