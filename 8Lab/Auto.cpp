@@ -4,8 +4,8 @@
 using namespace std;
 
 int THIRD(){
-    queue<Auto> AutoQue;
-    Auto autoo;
+    queue<Car> AutoQue;
+    Car autoo;
 
     try{
 
@@ -29,9 +29,9 @@ int THIRD(){
 }
 
 
-Auto::Auto(const string &mark, int year) : mark(mark), year(year) {}
+Car::Car(string mark, int year) : mark(mark), year(year) {}
 
-ostream  &operator <<(ostream &stream, const Auto &rbk){
+ostream  &operator <<(ostream &stream, const Car &rbk){
     cout << "Mark:"<<rbk.mark << '\n'<<"Year:" << rbk.year;
     return stream;
 }

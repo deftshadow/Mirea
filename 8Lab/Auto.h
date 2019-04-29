@@ -2,15 +2,16 @@
 #define INC_8LAB_AUTO_H
 
 #include <string>
+#include <ostream>
 using namespace std;
 int THIRD();
-class Auto {
+class Car {
 private:
     string mark;
     int year;
 public:
-    Auto(const string &mark=0, int year=0);
-    friend ostream  &operator <<(ostream &stream, const Auto &rbk);
+    Car(string mark = "", int year=0);
+    friend ostream  &operator <<(ostream &stream, const Car &rbk);
 };
 
 
