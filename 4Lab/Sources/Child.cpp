@@ -16,11 +16,6 @@ int FIRST() {
     SecondChild.Setter();
     SecondChild.Getter();
 }
-
-
-
-
-
 void Child:: Setter() {
     cout << "Ведите имя ребенка:";
     cin >> name;
@@ -29,28 +24,24 @@ void Child:: Setter() {
     cout << "Ведите возраст:";
     cin >> age;
 }
-
-
 void Child :: Getter() {
         cout << "Имя:" << name << '\n';
         cout << "Фамилия:" << surname << '\n';
         cout << "Возраст:" << age << '\n';
     }
-
-
 Child::Child() {
     name = "None";
     surname = "None";
     age = 0;
 }
-
 Child::Child(string nameVal, string surnameVal) {
     name = nameVal;
     surname = surnameVal;
     age = 0;
 }
 
-Child::Child(string nameVal, string surnameVal, int ageVal) : name(nameVal), surname(surnameVal), age(ageVal) {}
+Child::Child(string nameVal, string surnameVal, int ageVal) :
+name(nameVal), surname(surnameVal), age(ageVal) {}
 
 Child::Child(const Child &object) {
     name = object.name;

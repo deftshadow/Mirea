@@ -12,6 +12,4 @@ public:
 
     friend ostream  &operator <<(ostream &stream, const Complex &complex);
 };
-
-
 #endif //INC_8LAB_COMPLEX_H

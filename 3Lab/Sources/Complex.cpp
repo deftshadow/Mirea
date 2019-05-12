@@ -7,15 +7,11 @@ using namespace std;
 
 int THIRD(){
     Complex complex;
-
     complex.Setter();
     complex.Getter();
     complex.ABC();
     return 0;
 }
-
-
-
 
 void Complex::Setter(){
     cout << "Ведите значеие X:";

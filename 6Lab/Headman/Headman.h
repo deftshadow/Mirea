@@ -16,7 +16,6 @@ public:
 
 };
 
-
 class Headman : public Student{
 protected:
     long int PhoneNumber;

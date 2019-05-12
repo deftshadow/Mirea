@@ -24,4 +24,4 @@ struct R {
 
 float Enter();
 
-#endif //INC_1LAB_COMPLEX_H
+#endif

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arinadrakon/CLionProjects/OOP/5Lab/Complex.cpp
+Complex.h
+/Users/arinadrakon/CLionProjects/OOP/5Lab/Complex.h
+iostream
+-
+
+/Users/arinadrakon/CLionProjects/OOP/5Lab/Complex.h
+ostream
+-
+
+/Users/arinadrakon/CLionProjects/OOP/5Lab/Vector.cpp
+Vector.h
+/Users/arinadrakon/CLionProjects/OOP/5Lab/Vector.h
+iostream
+-
+math.h
+-
+
+/Users/arinadrakon/CLionProjects/OOP/5Lab/Vector.h
+ostream
+-
+
+/Users/arinadrakon/CLionProjects/OOP/5Lab/main.cpp
+iostream
+-
+Complex.h
+/Users/arinadrakon/CLionProjects/OOP/5Lab/Complex.h
+Vector.h
+/Users/arinadrakon/CLionProjects/OOP/5Lab/Vector.h
+

@@ -20,7 +20,6 @@ int FIRST(){
 
 }
 
-
 void Headman ::SetHeadman() {
     cout << "Имя старосты:";
     cin >> name;
@@ -44,7 +43,6 @@ void Headman::GetHeadman() {
     cout << "Email старосты: " << email << '\n';
 }
 
-
 void Student::Setter() {
     cout << "\nВедите имя студента:";
     cin >> name;
@@ -56,7 +54,6 @@ void Student::Setter() {
     cin >> group;
 
 }
-
 
 void Student::Getter() {
     cout << "Имя:" << name << '\n';

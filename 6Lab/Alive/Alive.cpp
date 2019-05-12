@@ -26,8 +26,6 @@ int SECOND(){
 
 }
 
-
-
 void Alive::Setter() {
     cout << "Название:";
     cin >> name;

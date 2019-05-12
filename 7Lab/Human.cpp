@@ -3,8 +3,6 @@
 using namespace std;
 
 int FIRST(){
-
-
     Boss boss{ "кто", "кто-то", "какой-тович", 89, 90};
     Student student{ "Кужахметова", "Арина", "Сериковна", 18, true };
     boss.print();
@@ -14,8 +12,6 @@ int FIRST(){
     human->print();
     return 0;
 }
-
-
 
 
 Human::Human(string Name, string Surname, string Midname, int Age) {

@@ -12,12 +12,11 @@ int FIRST(){
     cout << "Введите второе комплексное число:\n";
     cin >> second;
 
-
     first++;
     second--;
 
-
-    cout << "Инкремент первого числа:" << first <<'\n' << "Декремент второго числа:" << second <<'\n';
+    cout << "Инкремент первого числа:" << first <<'\n' <<
+    "Декремент второго числа:" << second <<'\n';
 
     if (first == second)
         cout << "Комплексные числа равны" << endl;
@@ -25,7 +24,6 @@ int FIRST(){
         cout << "Комплексные числа не равны" << endl;
     return 0;
 }
-
 
 Complex::Complex(float Re, float Im) : Re(Re), Im(Im) {}
 

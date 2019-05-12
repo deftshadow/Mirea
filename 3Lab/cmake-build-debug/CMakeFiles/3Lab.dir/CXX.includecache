@@ -6,13 +6,53 @@
 
 #IncludeRegexTransform: 
 
-/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.cpp
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Child.h
+string
+-
 iostream
 -
-Vector.h
-/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.h
+
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Complex.h
+
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Tiles.h
+string
+-
+
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Vector.h
+
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Child.cpp
+iostream
+-
+string
+-
+../Headers/Child.h
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Child.h
+
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Complex.cpp
+../Headers/Complex.h
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Complex.h
+iostream
+-
 math.h
 -
 
-/Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.h
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Vector.cpp
+iostream
+-
+../Headers/Vector.h
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Vector.h
+math.h
+-
+
+/Users/arinadrakon/CLionProjects/OOP/3Lab/main.cpp
+iostream
+-
+Headers/Child.h
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Child.h
+Headers/Tiles.h
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Tiles.h
+Headers/Complex.h
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Complex.h
+Headers/Vector.h
+/Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Vector.h
 

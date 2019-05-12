@@ -3,7 +3,6 @@
 #include <vector>
 
 using namespace std;
-
 int FIRST(){
     unsigned long int Count;
     Student student;
@@ -15,8 +14,6 @@ int FIRST(){
             cout << '\n' << i + 1 << ")";
             Group[i].Setter();
         }
-
-
         for (int i = 0; i <Group.size(); i++){
             cout << "\nЛИЧНЫЕ ДАННЫЕ " << i+1 << " СТУДЕНТА:\n";
             Group[i].Getter();
@@ -30,11 +27,6 @@ int FIRST(){
 
     return false;
 }
-
-
-
-
-
 void Student::Setter() {
     cout << "Введите имя: ";
     cin >> name;
@@ -43,9 +35,7 @@ void Student::Setter() {
     cout << "Введите возраст: ";
     cin >> age;
 }
-
 void Student::Getter() {
-
     cout << "Имя:" << name << '\n';
     cout << "Фамилия:" << surname << '\n';
     cout << "Возраст:" << age << '\n';

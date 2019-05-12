@@ -18,19 +18,14 @@ void Complex::Setter(){
     cout << "Введите значение Y:";
     cin >> y;
 }
-
-
 void Complex::Getter(){
     cout << "X:" << x<<'\n';
     cout <<"Y:" << y << '\n';
 }
-
-
 void Complex::ABC(){
     auto result = sqrt(x * x + y * y);
     cout << "Модуль числа:" << result;
 }
-
 
 Complex::Complex() {
     x = 0;
@@ -48,8 +43,6 @@ Complex::Complex(const Complex &object) {
     x = object.x;
     y = object.y;
 }
-
-
 
 Complex::~Complex() {}
 

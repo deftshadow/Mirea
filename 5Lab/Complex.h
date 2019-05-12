@@ -19,9 +19,6 @@ public:
     bool operator!=(const Complex & rbk);
     friend ostream &operator<<(ostream &stream, Complex &rbk);
     friend istream &operator>>(istream &stream, Complex &rbk);
-
-
-
 };
 
 

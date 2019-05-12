@@ -17,15 +17,12 @@ int SECOND(){
     return 0;
 
 }
-
-
 void Tiles:: getData() {
     cout << "Бренд:" << brand;
     cout << "\nВысота:" << size_h;
     cout << "\nШирина:" << size_w;
     cout << "\nСтоимость:" << price;
 }
-
 void Tiles::Setter(){
     cout << "Ведите название бренда:";
     cin >> brand;
@@ -51,7 +48,8 @@ Tiles::Tiles(string brandVal, float size_hVal, float size_wVal) {
     price = 0;
 }
 
-Tiles::Tiles(string brandVal, float size_hVal, float size_wVal, float priceVal) : brand(brandVal), size_h(size_hVal), size_w(size_wVal), price(priceVal){}
+Tiles::Tiles(string brandVal, float size_hVal, float size_wVal, float priceVal) :
+brand(brandVal), size_h(size_hVal), size_w(size_wVal), price(priceVal){}
 
 Tiles::Tiles(const Tiles &object) {
     brand = object.brand;
@@ -59,8 +57,6 @@ Tiles::Tiles(const Tiles &object) {
     size_w = object.size_w;
     price = object.price;
 }
-
-
 
 Tiles::~Tiles() {}
 

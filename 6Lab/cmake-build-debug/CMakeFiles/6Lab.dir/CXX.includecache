@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Alive/Alive.cpp
+Alive.h
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Alive/Alive.h
+iostream
+-
+
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Alive/Alive.h
+string
+-
+
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Animal/Animal.h
+string
+-
+
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Headman/Headman.cpp
+Headman.h
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Headman/Headman.h
+iostream
+-
+
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Headman/Headman.h
+string
+-
+
+/Users/arinadrakon/CLionProjects/OOP/6Lab/main.cpp
+iostream
+-
+Headman/Headman.h
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Headman/Headman.h
+Alive/Alive.h
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Alive/Alive.h
+Animal/Animal.h
+/Users/arinadrakon/CLionProjects/OOP/6Lab/Animal/Animal.h
+

@@ -10,12 +10,12 @@ CMakeFiles/3Lab.dir/Sources/Complex.cpp.o
 CMakeFiles/3Lab.dir/Sources/Tiles.cpp.o
  /Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Tiles.h
  /Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Tiles.cpp
-CMakeFiles/3Lab.dir/Vector.cpp.o
- /Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.cpp
- /Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.h
+CMakeFiles/3Lab.dir/Sources/Vector.cpp.o
+ /Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Vector.h
+ /Users/arinadrakon/CLionProjects/OOP/3Lab/Sources/Vector.cpp
 CMakeFiles/3Lab.dir/main.cpp.o
  /Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Child.h
  /Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Complex.h
  /Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Tiles.h
- /Users/arinadrakon/CLionProjects/OOP/3Lab/Vector.h
+ /Users/arinadrakon/CLionProjects/OOP/3Lab/Headers/Vector.h
  /Users/arinadrakon/CLionProjects/OOP/3Lab/main.cpp

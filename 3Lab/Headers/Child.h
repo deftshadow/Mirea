@@ -3,6 +3,7 @@
 #define INC_3LAB_HEADER_H
 
 #include <string>
+#include <iostream>
 using namespace std;
 
 int FIRST();

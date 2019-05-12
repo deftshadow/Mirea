@@ -8,7 +8,6 @@ int THIRD(){
     Car autoo;
 
     try{
-
         AutoQue.push(autoo);
 
         cout << "\nВывод очереди" << '\n';
@@ -26,11 +25,17 @@ int THIRD(){
     }
 
 }
+Car::Car(string mark, int year) : mark(mark), year(year) {}
 
+<<<<<<< HEAD
+ostream  &operator <<(ostream &stream, const Car &rbk){
+    cout << "Mark: "<<rbk.mark << '\n'<<"Year: " << rbk.year;
+=======
 
 Car::Car(string mark, int year) : mark(mark), year(year) {}
 
 ostream  &operator <<(ostream &stream, const Car &rbk){
     cout << "Mark:"<<rbk.mark << '\n'<<"Year:" << rbk.year;
+>>>>>>> 538516b... completed
     return stream;
 }

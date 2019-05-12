@@ -14,4 +14,4 @@ public:
 };
 
 
-#endif //INC_3LAB_4_H
+#endif

@@ -14,4 +14,4 @@ public:
     void getData();
 
 };
-#endif //INC_3LAB_2_H
+#endif

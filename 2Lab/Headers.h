@@ -12,4 +12,4 @@ void decrease (int *Arr, int amount);
 void FIRST();
 
 
-#endif //INC_2LAB_HEADERS_H
+#endif

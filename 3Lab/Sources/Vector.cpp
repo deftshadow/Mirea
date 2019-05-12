@@ -14,7 +14,6 @@ int FOURTH() {
     firstVector.Getter();
     firstVector.ABC();
 
-
     cout << "\n\nВторой вектор:\n";
     secondVector.Setter();
     secondVector.Getter();
@@ -29,7 +28,6 @@ int FOURTH() {
     dif.DIF(firstVector, secondVector);
     dif.Getter();
 }
-
 
 void Vector::Setter() {
     cout << "Ведите значеие X:";
@@ -58,7 +56,6 @@ void Vector::DIF(Vector f1,Vector f2) {
     z = f1.z - f2.z;
 
 }
-
 void Vector:: SUM(Vector f1, Vector f2){
     x = f1.x + f2.x;
     y = f1.y + f2.y;
