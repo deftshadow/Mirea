@@ -6,7 +6,7 @@
     #include "calculator.h"
     QString evaluate;
     double a,b,c;
-    bool SIN, COS,TG,CTG,XY,PI,LN,EXP;
+    bool SIN, COS,TG,PI,LN,EXP, LOG;
 
     Calculator::Calculator(QWidget *parent)
     : QWidget(parent)
