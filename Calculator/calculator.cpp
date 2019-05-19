@@ -5,6 +5,8 @@
     #include "button.h"
     #include "calculator.h"
     QString evaluate;
+    double a,b,c;
+    bool SIN, COS,TG,CTG,XY,PI,LN,EXP;
 
     Calculator::Calculator(QWidget *parent)
     : QWidget(parent)
@@ -114,6 +116,8 @@
 
     void Calculator::digitClicked()
     {
+
+
     Button *clickedButton = qobject_cast<Button *>(sender());
     int digitValue = clickedButton->text().toInt();
     if (display->text() == "0" && digitValue == 0.0)
@@ -158,10 +162,21 @@
     else if (clickedOperator == tr("sin"))
     {
     tempx = "sin";
-    display->setText(tempi+tempx);
-    tempy= "s";
-    evaluate = evaluate+tempy;
+
+
+    a=display->text().toDouble();
+    SIN=true;b=a*M_PI/180;
+      if(SIN==true){c=sin(b);
+         display->setText(QString::number(c));
+          SIN=false;
+      }
     }
+
+
+//    display->setText(tempi+tempx);
+//    tempy= "s";
+//    evaluate = evaluate+tempy;
+//    }
 
     else if (clickedOperator == tr("cos"))
     {
