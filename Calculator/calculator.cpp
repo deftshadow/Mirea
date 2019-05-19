@@ -1,12 +1,9 @@
 #include <QtWidgets>
+#include <cctype>
+#include <cmath>
+#include "button.h"
+#include "calculator.h"
 
-    #include <cmath>
-
-    #include "button.h"
-    #include "calculator.h"
-    QString evaluate;
-    double a,b,c;
-    bool SIN, COS,TG,PI,LN,EXP, LOG;
 
     Calculator::Calculator(QWidget *parent)
     : QWidget(parent)
@@ -137,9 +134,9 @@
     double operand = display->text().toDouble();
     double result = 0.0;
 
-    QString tempx ;
-    QString tempy ;
-    QString tempi = display->text();
+
+
+
 
 
     if (clickedOperator == tr("Sqrt")) {
@@ -158,72 +155,50 @@
     result = 1.0 / operand;
     }
 
-
     else if (clickedOperator == tr("sin"))
     {
-    tempx = "sin";
+        using std::sin;
+        result =sin(operand );
 
-
-    a=display->text().toDouble();
-    SIN=true;b=a*M_PI/180;
-      if(SIN==true){c=sin(b);
-         display->setText(QString::number(c));
-          SIN=false;
-      }
     }
-
-
-//    display->setText(tempi+tempx);
-//    tempy= "s";
-//    evaluate = evaluate+tempy;
-//    }
 
     else if (clickedOperator == tr("cos"))
     {
-    tempx = "cos";
-    display->setText(tempi+tempx);
-    tempy = "c";
-    evaluate = evaluate+tempy;
+        using std::cos;
+        result =cos(operand);
     }
     else if (clickedOperator == tr("tan"))
     {
-    tempx = "tan";
-    display->setText(tempi+tempx);
-    tempy = "t";
-    evaluate = evaluate+tempy;
+        using std::tan;
+        result =tan(operand);
+
     }
     else if (clickedOperator == tr("e^x"))
     {
-    tempx = "e^";
-    display->setText(tempi+tempx);
-    tempy = "e";
-    evaluate = evaluate+tempy;
+
+
     }
-    else if (clickedOperator == tr("ln"))
-    {
-    tempx = "ln";
-    display->setText(tempi+tempx);
-    tempy="l";
-    evaluate = evaluate+tempy;
-    }
+
     else if (clickedOperator == tr("("))
     {
-        tempx = "(";
-        display->setText(tempi+tempx);
-        evaluate = evaluate+tempx;
+
+
     }
     else if (clickedOperator == tr(")"))
     {
-        tempx = ")";
-        display->setText(tempi+tempx);
-        evaluate = evaluate+tempx;
+
+
+    }
+    else if (clickedOperator == tr("ln"))
+    {
+
+
     }
     else if (clickedOperator == tr("log"))
     {
-    tempx = "log";
-    display->setText(tempi+tempx);
-    tempy="1/l(10)*l";
-    evaluate = evaluate+tempy;
+
+
+
     }
     display->setText(QString::number(result));
     waitingForOperand = true;
