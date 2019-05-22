@@ -29,6 +29,7 @@
     void readMemory();
     void setMemory();
     void addToMemory();
+    QString convert();
 
     private:
     Button *createButton(const QString &text, const char *member);

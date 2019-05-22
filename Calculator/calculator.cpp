@@ -5,8 +5,7 @@
 #include "calculator.h"
 
 
-    Calculator::Calculator(QWidget *parent)
-    : QWidget(parent)
+    Calculator::Calculator(QWidget *parent):QWidget(parent)
     {
     sumInMemory = 0.0;
     sumSoFar = 0.0;
@@ -56,7 +55,7 @@
     Button *logButton = createButton(tr("log"), SLOT(unaryOperatorClicked()));
     Button *lnButton = createButton(tr("ln"), SLOT(unaryOperatorClicked()));
     Button *tanButton = createButton(tr("tan"), SLOT(unaryOperatorClicked()));
-    Button *exponentialButton = createButton(tr("e^x"), SLOT(unaryOperatorClicked()));
+    Button *exponentialButton = createButton(tr("e"), SLOT(unaryOperatorClicked()));
 
 
 
@@ -115,6 +114,7 @@
     {
 
 
+
     Button *clickedButton = qobject_cast<Button *>(sender());
     int digitValue = clickedButton->text().toInt();
     if (display->text() == "0" && digitValue == 0.0)
@@ -133,11 +133,6 @@
     QString clickedOperator = clickedButton->text();
     double operand = display->text().toDouble();
     double result = 0.0;
-
-
-
-
-
 
     if (clickedOperator == tr("Sqrt")) {
     if (operand < 0.0) {
@@ -158,29 +153,58 @@
     else if (clickedOperator == tr("sin"))
     {
         using std::sin;
-        result =sin(operand );
+        result =sin((operand*M_PI)/180 );
 
     }
 
     else if (clickedOperator == tr("cos"))
     {
         using std::cos;
-        result =cos(operand);
+        result =cos((operand*M_PI)/180 );
     }
     else if (clickedOperator == tr("tan"))
     {
         using std::tan;
-        result =tan(operand);
-
-    }
-    else if (clickedOperator == tr("e^x"))
-    {
-
+        result =tan((operand*M_PI)/180 );
 
     }
 
-    else if (clickedOperator == tr("("))
+
+    else if (clickedOperator == tr("e"))
     {
+        using std::exp;
+        result = exp(operand);
+
+    }
+
+    else if (clickedOperator == tr("ln"))
+    {
+        using std::log;
+        result= log(operand);
+
+    }
+    else if (clickedOperator == tr("log"))
+    {
+        using std::log10;
+        result=log10(operand);
+    }
+
+
+    else if (clickedOperator == tr(")"))
+    {
+        QStringList first;
+
+
+        for (auto c : first)
+        {
+            if(clickedOperator == tr("(")){
+
+            }
+
+        }
+
+
+
 
 
     }
@@ -189,20 +213,17 @@
 
 
     }
-    else if (clickedOperator == tr("ln"))
-    {
 
 
-    }
-    else if (clickedOperator == tr("log"))
-    {
-
-
-
-    }
     display->setText(QString::number(result));
     waitingForOperand = true;
     }
+
+
+
+
+
+
 
     void Calculator::additiveOperatorClicked()
     {
