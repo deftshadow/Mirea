@@ -190,29 +190,10 @@
     }
 
 
-    else if (clickedOperator == tr(")"))
-    {
-        QStringList first;
-
-
-        for (auto c : first)
-        {
-            if(clickedOperator == tr("(")){
-
-            }
-
-        }
-
-
-
-
-
+    else if (clickedOperator == tr(")")){
     }
-    else if (clickedOperator == tr(")"))
-    {
-
-
-    }
+    else if (clickedOperator == tr(")")){
+ }
 
 
     display->setText(QString::number(result));
