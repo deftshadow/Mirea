@@ -14,7 +14,7 @@ void Baselog(double);
 void application(double x);
 
 
-int stack( string expression);
+int stack(string expression);
 bool is_symbol(char sym);
 bool is_mid_priority(char sym);
 bool is_low_priority(char sym);

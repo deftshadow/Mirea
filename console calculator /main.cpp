@@ -7,7 +7,7 @@ int main() {
     double a, b;
     string priority;
 
-    cout << "WHAT YOU WANT TO FIND:\n";
+    cout << "WHAT DO YOU WANT TO FIND:\n";
     cout << "Press '1' for Power:\n";
     cout << "Press '2' for Sin:\n";
     cout << "Press '3' for Square:\n";
