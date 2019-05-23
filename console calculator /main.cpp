@@ -2,8 +2,10 @@
 #include "Sourse.h"
 using namespace std;
 
+
 int main() {
     double a, b;
+    string priority;
 
     cout << "WHAT YOU WANT TO FIND:\n";
     cout << "Press '1' for Power:\n";
@@ -17,8 +19,8 @@ int main() {
     cout << "Press '9' for Minus:\n";
     cout << "Press '10' for Division:\n";
     cout << "Press '11' for Multiplication:\n";
-    cout << "Press '12' for Sqrt:\n";
-    cout << "Press '13' for EXP:\n";
+    cout << "Press '12' for EXP:\n";
+    cout << "Press '13' for Priority operations:\n";
 
     int switcher = 1;
     do {
@@ -68,16 +70,39 @@ int main() {
                 cin >> a;
                 cout << "Enter the Number B for operation PlUS:\n";
                 cin >> b;
-                cout << "A + B =" << a + b<< '\n';
+                cout << "A + B = " << a + b<< '\n';
                 break;
             case 9:
                 cout << "Enter the Number A for operation MINUS:\n";
                 cin >> a;
                 cout << "Enter the Number B for operation MINUS:\n";
                 cin >> b;
-                cout << "A - B =" << a - b<< '\n';
+                cout << "A - B = " << a - b<< '\n';
                 break;
-
+            case 10:
+                cout << "Enter the Number A for operation DIVISION:\n";
+                cin >> a;
+                cout << "Enter the Number B for operation DIVISION:\n";
+                cin >> b;
+                cout << "A/B = " << a/b<< '\n';
+                break;
+            case 11:
+                cout << "Enter the Number A for operation MULTIPLICATION:\n";
+                cin >> a;
+                cout << "Enter the Number B for operation MULTIPLICATION:\n";
+                cin >> b;
+                cout << "A*B = " << a*b<< '\n';
+                break;
+            case 12:
+                cout << "Enter EXP:\n";
+                cin >> a;
+                application(a);
+                break;
+            case 13:
+                cout << "Enter operation:\n";
+                cin >> priority;
+                stack(priority);
+                break;
             default:
                 cerr << "ERROR";
         }
