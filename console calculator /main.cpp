@@ -71,52 +71,56 @@ int main() {
                 cin >> a;
                 cout << "Enter the Number B for operation PlUS:\n";
                 cin >> b;
-                cout << "A + B = " << a + b<< '\n';
+                cout << "A + B = " << a + b << '\n';
                 break;
             case 9:
                 cout << "Enter the Number A for operation MINUS:\n";
                 cin >> a;
                 cout << "Enter the Number B for operation MINUS:\n";
                 cin >> b;
-                cout << "A - B = " << a - b<< '\n';
+                cout << "A - B = " << a - b << '\n';
                 break;
             case 10:
                 cout << "Enter the Number A for operation DIVISION:\n";
                 cin >> a;
                 cout << "Enter the Number B for operation DIVISION:\n";
                 cin >> b;
-                cout << "A/B = " << a/b<< '\n';
+                cout << "A/B = " << a / b << '\n';
                 break;
             case 11:
                 cout << "Enter the Number A for operation MULTIPLICATION:\n";
                 cin >> a;
                 cout << "Enter the Number B for operation MULTIPLICATION:\n";
                 cin >> b;
-                cout << "A*B = " << a*b<< '\n';
+                cout << "A*B = " << a * b << '\n';
                 break;
             case 12:
                 cout << "Enter EXP:\n";
                 cin >> a;
                 application(a);
                 break;
-//            case 13:
-//                cout << "Enter operation:\n";
-//                cin >> priority;
-//                stack(priority);
-//                break;
+            case 13:
+                cout << "Enter operation:\n";
+                cin >> priority;
+                stack(priority);
+                break;
 
             case 14:
-                try {
-                    string input;
-                    string answer;
-                    cout << "Input:   ";
-                    cin >> input;
-                    cout << "Result:  \n" << pol_to_answer(str_to_pol(input)) << '\n';
-                }
-                catch(const exception& ex) {
-                    cout << ex.what() << '\n';
-                    cerr << "ERROR!";
-                }
+//                try {
+//                    string input;
+//                    //string answer;
+//                    cout << "Input:   ";
+//                    cin >> input;
+//                    cout << "Result:  \n"  << pol_to_answer(str_to_pol(input)) << '\n';
+//
+//
+//                }
+//
+//                catch(const exception& ex) {
+//                    cout << ex.what() << '\n';
+//                    cerr << "ERROR!";
+//                }
+                break;
             default:
                 cerr << "ERROR";
         }
