@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Sourse.h"
+#include "Polskaya.h"
 using namespace std;
 
 
@@ -98,11 +99,24 @@ int main() {
                 cin >> a;
                 application(a);
                 break;
-            case 13:
-                cout << "Enter operation:\n";
-                cin >> priority;
-                stack(priority);
-                break;
+//            case 13:
+//                cout << "Enter operation:\n";
+//                cin >> priority;
+//                stack(priority);
+//                break;
+
+            case 14:
+                try {
+                    string input;
+                    string answer;
+                    cout << "Input:   ";
+                    cin >> input;
+                    cout << "Result:  \n" << pol_to_answer(str_to_pol(input)) << '\n';
+                }
+                catch(const exception& ex) {
+                    cout << ex.what() << '\n';
+                    cerr << "ERROR!";
+                }
             default:
                 cerr << "ERROR";
         }

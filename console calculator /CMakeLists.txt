@@ -3,4 +3,4 @@ project(console_calculator_)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(console_calculator_ main.cpp Sourse.cpp Sourse.h)
+add_executable(console_calculator_ main.cpp Sourse.cpp Sourse.h Polskaya.cpp Polskaya.h)
