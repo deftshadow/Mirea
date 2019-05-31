@@ -1,13 +1,10 @@
 #include <iostream>
 #include "Sourse.h"
-#include "Polskaya.h"
+#include "Colculations.h"
 using namespace std;
-
-
 int main() {
     double a, b;
-    string priority;
-
+    string expression;
     cout << "WHAT DO YOU WANT TO FIND:\n";
     cout << "Press '1' for Power:\n";
     cout << "Press '2' for Sin:\n";
@@ -22,7 +19,6 @@ int main() {
     cout << "Press '11' for Multiplication:\n";
     cout << "Press '12' for EXP:\n";
     cout << "Press '13' for Priority operations:\n";
-
     int switcher = 1;
     do {
         cout << "\n\nENTER OPERATION:\n";
@@ -100,26 +96,10 @@ int main() {
                 application(a);
                 break;
             case 13:
-                cout << "Enter operation:\n";
-                cin >> priority;
-                stack(priority);
-                break;
+                EXPRESSION();
 
+                break;
             case 14:
-//                try {
-//                    string input;
-//                    //string answer;
-//                    cout << "Input:   ";
-//                    cin >> input;
-//                    cout << "Result:  \n"  << pol_to_answer(str_to_pol(input)) << '\n';
-//
-//
-//                }
-//
-//                catch(const exception& ex) {
-//                    cout << ex.what() << '\n';
-//                    cerr << "ERROR!";
-//                }
                 break;
             default:
                 cerr << "ERROR";
