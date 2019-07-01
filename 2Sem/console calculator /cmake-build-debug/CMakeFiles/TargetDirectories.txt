@@ -1,0 +1,3 @@
+/Users/arinadrakon/CLionProjects/OOP/console calculator /cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/arinadrakon/CLionProjects/OOP/console calculator /cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/arinadrakon/CLionProjects/OOP/console calculator /cmake-build-debug/CMakeFiles/console_calculator_.dir

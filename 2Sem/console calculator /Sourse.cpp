@@ -9,13 +9,14 @@ void Power(double x,double y){
     double p = pow(x,y);
     cout<<"Power: "<<p;
 }
-void Sine(double x){
-    double s = sin(x);
-    cout<<"Sin: "<<s;
-}
+
 void Square(double x){
     double sq = sqrt(x);
     cout<<"Square of a Given Value is: "<<sq;
+}
+void Sine(double x){
+    double s = sin(x);
+    cout<<"Sin: "<<s;
 }
 void Cos(double x){
     double c = cos(x);

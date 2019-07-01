@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arinadrakon/CLionProjects/OOP/console calculator /Colculations.cpp
+Colculations.h
+/Users/arinadrakon/CLionProjects/OOP/console calculator /Colculations.h
+
+/Users/arinadrakon/CLionProjects/OOP/console calculator /Colculations.h
+stdio.h
+-
+iostream
+-
+math.h
+-
+stack
+-
+vector
+-
+numeric
+/Users/arinadrakon/CLionProjects/OOP/console calculator /numeric
+sstream
+-
+stdlib.h
+-
+
+/Users/arinadrakon/CLionProjects/OOP/console calculator /Sourse.cpp
+Sourse.h
+/Users/arinadrakon/CLionProjects/OOP/console calculator /Sourse.h
+iostream
+-
+string.h
+-
+math.h
+-
+
+/Users/arinadrakon/CLionProjects/OOP/console calculator /Sourse.h
+
+/Users/arinadrakon/CLionProjects/OOP/console calculator /main.cpp
+iostream
+-
+Sourse.h
+/Users/arinadrakon/CLionProjects/OOP/console calculator /Sourse.h
+Colculations.h
+/Users/arinadrakon/CLionProjects/OOP/console calculator /Colculations.h
+

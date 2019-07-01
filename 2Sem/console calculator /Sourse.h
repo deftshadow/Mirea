@@ -12,4 +12,4 @@ void Baselog(double);
 void application(double x);
 
 
-#endif //CONSOLE_CALCULATOR_SOURSE_H
+#endif

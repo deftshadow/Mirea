@@ -14,4 +14,4 @@ int EXPRESSION();
 std :: string str_to_pol(std::string input);
 double pol_to_answer(std::string pol);
 
-#endif //CONSOLE_CALCULATOR_COLCULATIONS_H
+#endif
