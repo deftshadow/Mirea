@@ -56,6 +56,10 @@ public class Alkash {
             }
             abacus++;
 
+            if(abacus >= 106) {
+                System.out.println("botva");
+                break;
+            }
 
         }
 
@@ -64,14 +68,7 @@ public class Alkash {
         else if (two.IsEmpty()){
             System.out.println("Победил первый " + abacus);
         }
-
-
-
-
-
     }
-
-
 
 
     public static void main(String[] args){
