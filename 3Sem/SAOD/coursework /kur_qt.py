@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
         self.p = re.compile("([a-zA-Z-'а-яА-Я]+)")
         self.ui.pushButton_func.clicked.connect(self.freq_alph)
         self.ui.saveButton.clicked.connect(self.save_to_file)
-        self.d = DialogUIWidget()
+        self.d = Dialog()
         self.result = list()
 
     def freq_alph(self):
@@ -47,7 +47,7 @@ class MainWindow(QMainWindow):
             self.save_to_file()
 
 
-class DialogUIWidget(QDialog, DIALOG):
+class Dialog(QDialog, DIALOG):
     def __init__(self):
         QDialog.__init__(self)
         self.setupUi(self)
