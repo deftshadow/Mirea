@@ -46,7 +46,6 @@ class MainWindow(QMainWindow):
             self.freq_alph()
             self.save_to_file()
 
-
 class Dialog(QDialog, DIALOG):
     def __init__(self):
         QDialog.__init__(self)
