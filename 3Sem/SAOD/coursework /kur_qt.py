@@ -11,15 +11,15 @@ class MainWindow(QMainWindow):
         super(MainWindow, self).__init__(parent)
         self.ui = MainWindowUI()
         self.ui.setupUi(self)
-        self.p = re.compile("([a-zA-Z-'а-яА-Я]+)")
+        self.regex = re.compile("([a-zA-Z-'а-яА-Я]+)")
         self.ui.pushButton_func.clicked.connect(self.freq_alph)
         self.ui.saveButton.clicked.connect(self.save_to_file)
-        self.d = Dialog()
+        self.dialog = Dialog()
         self.result = list()
 
     def freq_alph(self):
         input_text = self.ui.textEdit.toPlainText()
-        res = self.p.findall(input_text)
+        res = self.regex.findall(input_text)
         lsWord = {}
         for key in res:
             if key in lsWord:
@@ -30,8 +30,8 @@ class MainWindow(QMainWindow):
         sorted_keys = sorted(lsWord, key=lambda x: int(lsWord[x]), reverse=True)
         for key in sorted_keys:
             self.result.append([key, lsWord[key]])
-        self.d.show()
-        self.d.func(self.result)
+        self.dialog.show()
+        self.dialog.func(self.result)
 
     def save_to_file(self):
         if len(self.result) != 0:
