@@ -3,11 +3,11 @@ public class Simple {
     public static String function(int target, int div){
         if(div != 1 && div != target){
             if(target % div == 0)
-                return "no";
+                return "NO";
             else return function(target, div - 1);
         }
          else if(div == 1){
-             return "yes";
+             return "YES";
         }
          else return function(target,div - 1);
     }
