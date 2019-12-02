@@ -11,8 +11,7 @@ public class Simple {
         }
          else return function(target,div - 1);
     }
-    public static void main(String[] args){
-        System.out.println(function(31, 31));
-    }
+
+    public static void main(String[] args){ System.out.println(function(31, 31));}
 }
 

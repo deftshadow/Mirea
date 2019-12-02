@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00be251e-ff26-4f84-97f7-10ccca31b421" name="Default Changelist" comment="completed" />
+    <list default="true" id="00be251e-ff26-4f84-97f7-10ccca31b421" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kur_qt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="-242">
               <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/qt.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
-              <caret line="39" column="77" lean-forward="true" selection-start-line="9" selection-end-line="39" selection-end-column="77" />
+              <caret line="39" column="77" selection-start-line="9" selection-end-line="39" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dialog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="59" lean-forward="true" selection-start-line="9" selection-end-line="59" />
+            <state relative-caret-position="855">
+              <caret line="59" selection-start-line="9" selection-end-line="59" />
               <folding>
                 <element signature="e#198#240#0" expanded="true" />
               </folding>
@@ -160,6 +160,7 @@
       <workItem from="1574261825012" duration="1239000" />
       <workItem from="1574317467826" duration="322000" />
       <workItem from="1574323891678" duration="3665000" />
+      <workItem from="1575277657098" duration="178000" />
     </task>
     <task id="LOCAL-00001" summary="completed">
       <created>1574256928634</created>
@@ -203,17 +204,24 @@
       <option name="project" value="LOCAL" />
       <updated>1574325919052</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="completed">
+      <created>1575277663118</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575277663118</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7274000" />
+    <option name="totallyTimeSpent" value="7452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -269,12 +277,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asdf.txt" />
     <entry file="file://$PROJECT_DIR$/asdf.txt.txt" />
-    <entry file="file://$PROJECT_DIR$/dialog.py">
+    <entry file="file://$PROJECT_DIR$/kur_qt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="59" lean-forward="true" selection-start-line="9" selection-end-line="59" />
+        <state relative-caret-position="-242">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
-            <element signature="e#198#240#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -282,16 +290,16 @@
     <entry file="file://$PROJECT_DIR$/qt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="39" column="77" lean-forward="true" selection-start-line="9" selection-end-line="39" selection-end-column="77" />
+          <caret line="39" column="77" selection-start-line="9" selection-end-line="39" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kur_qt.py">
+    <entry file="file://$PROJECT_DIR$/dialog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="855">
+          <caret line="59" selection-start-line="9" selection-end-line="59" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#198#240#0" expanded="true" />
           </folding>
         </state>
       </provider>
