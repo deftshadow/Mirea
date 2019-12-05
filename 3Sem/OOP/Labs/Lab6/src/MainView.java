@@ -51,28 +51,27 @@ public class MainView extends Application {
 						}
 					});
 					wait.play();
-								   } else {
-									   label.setText("Вы не угадали...");
-									   count++;
-									   if (count == 3) {
-										   button.setDisable(true);
-										   PauseTransition wait = new PauseTransition(Duration.seconds(1));
-										   wait.setOnFinished(new EventHandler<ActionEvent>() {
-											   public void handle(ActionEvent e) {
+				} else {
+					label.setText("Вы не угадали...");
+					count++;
+					if (count == 3) {
+						button.setDisable(true);
+						PauseTransition wait = new PauseTransition(Duration.seconds(1));
+						wait.setOnFinished(new EventHandler<ActionEvent>() {
+							public void handle(ActionEvent e) {
 												   stage.close();
 											   }
-										   });
-										   wait.play();
-									   }
-								   }
-							   }
-						   }
+						});
+						wait.play();
+					}
+				}
+			}
+		}
 		);
 		stage.setHeight(120);
 		stage.setWidth(120);
 		stage.show();
 	}
-
 
 	public static void main(String[] args) {
 		MainView.launch(args);
