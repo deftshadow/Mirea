@@ -39,34 +39,34 @@ public class MainView extends Application {
 		stage.setScene(scene);
 		stage.setTitle("Угадайка");
 		button.setOnAction(new EventHandler<ActionEvent>() {
-			public void handle(ActionEvent event) {
-				int unknownNumber = Integer.parseInt(text.getText());
-				if (unknownNumber == thinkNumber) {
-					label.setText("Вы угадали!");
-					button.setDisable(true);
-					PauseTransition wait = new PauseTransition(Duration.seconds(1));
-					wait.setOnFinished(new EventHandler<ActionEvent>() {
-						public void handle(ActionEvent e) {
-							stage.close();
-						}
-					});
-					wait.play();
-				} else {
-					label.setText("Вы не угадали...");
-					count++;
-					if (count == 3) {
-						button.setDisable(true);
-						PauseTransition wait = new PauseTransition(Duration.seconds(1));
-						wait.setOnFinished(new EventHandler<ActionEvent>() {
-							public void handle(ActionEvent e) {
+							   public void handle(ActionEvent event) {
+								   int unknownNumber = Integer.parseInt(text.getText());
+								   if (unknownNumber == thinkNumber) {
+									   label.setText("Вы угадали!");
+									   button.setDisable(true);
+									   PauseTransition wait = new PauseTransition(Duration.seconds(1));
+									   wait.setOnFinished(new EventHandler<ActionEvent>() {
+										   public void handle(ActionEvent e) {
+											   stage.close();
+										   }
+									   });
+									   wait.play();
+								   } else {
+									   label.setText("Вы не угадали...");
+									   count++;
+									   if (count == 3) {
+										   button.setDisable(true);
+										   PauseTransition wait = new PauseTransition(Duration.seconds(1));
+										   wait.setOnFinished(new EventHandler<ActionEvent>() {
+											   public void handle(ActionEvent e) {
 												   stage.close();
 											   }
-						});
-						wait.play();
-					}
-				}
-			}
-		}
+										   });
+										   wait.play();
+									   }
+								   }
+							   }
+						   }
 		);
 		stage.setHeight(120);
 		stage.setWidth(120);
@@ -76,5 +76,4 @@ public class MainView extends Application {
 	public static void main(String[] args) {
 		MainView.launch(args);
 	}
-
 }
