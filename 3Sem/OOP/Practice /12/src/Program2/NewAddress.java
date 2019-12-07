@@ -1,4 +1,4 @@
-package task2;
+package Program2;
 
 import java.util.StringTokenizer;
 

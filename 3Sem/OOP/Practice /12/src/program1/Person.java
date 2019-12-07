@@ -1,4 +1,4 @@
-package task1;
+package program1;
 
 public class Person {
     private StringBuilder name;

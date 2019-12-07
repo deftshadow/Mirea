@@ -1,4 +1,4 @@
-package task4;
+package program4;
 
 public class PhoneNumber {
     private String oldFormat;

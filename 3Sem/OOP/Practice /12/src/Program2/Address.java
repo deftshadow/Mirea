@@ -1,4 +1,4 @@
-package task2;
+package Program2;
 
 public class Address {
     private String fullAddress;

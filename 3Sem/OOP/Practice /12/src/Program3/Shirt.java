@@ -1,4 +1,4 @@
-package task3;
+package Program3;
 
 public class Shirt {
     public String line;
