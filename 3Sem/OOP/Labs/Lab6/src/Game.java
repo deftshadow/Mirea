@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Game extends JFrame {
-    int count = 0;
+    private int count = 0;
 
     Game(){
         super("Угадайка");
@@ -25,13 +25,11 @@ public class Game extends JFrame {
                         JOptionPane.showMessageDialog(null, "You win!");
                         setVisible(false);
                         dispose();
-                    }else
-                    {
+                    }else {
                         JOptionPane.showMessageDialog(null, " Try again!");
                         jTextField.setText("");
                     }
-                }else
-                {
+                }else {
                     JOptionPane.showMessageDialog(null, " You lose!!!");
                     setVisible(false);
                     dispose();
