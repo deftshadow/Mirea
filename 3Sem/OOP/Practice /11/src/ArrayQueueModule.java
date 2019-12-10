@@ -1,19 +1,22 @@
-public class ArrayQueue {
-    private Object[] elements = new Object[20];
-    private int size = 0;
-    private int left = 0;
-    private int right = 0;
+public class ArrayQueueModule {
+    private static Object[] elements = new Object[20];
+    private static int size = 0;
+    private static int left = 0;
+    private static int right = 0;
 
-    private int add(int x) {
+    private static int add(int x) {
         return (x + 1) % elements.length;
     }
 
-    public Object element() {
-        assert size > 0;
-        return elements[left];
+    private static int dec(int x) {
+        if (x == 0) {
+            return elements.length - 1;
+        } else {
+            return x - 1;
+        }
     }
 
-    private void ensureCapacity(int sz) {
+    private static void ensureCapacity(int sz) {
         if ((elements.length <= sz) || (sz * 4 < elements.length)) {
             Object[] temp = new Object[sz * 2 + 1];
             int ind = 0;
@@ -26,32 +29,40 @@ public class ArrayQueue {
         }
     }
 
-    public void enqueue(Object elem) {
+    public static void enqueue(Object elem) {
         assert elem != null;
-        ensureCapacity(++size);
+        size++;
+        ensureCapacity(size);
         elements[right] = elem;
         right = add(right);
     }
 
-    public Object dequeue() {
+    public static Object element() {
+        assert size > 0;
+
+        return elements[left];
+    }
+
+    public static Object dequeue() {
         assert size > 0;
         Object ans = elements[left];
         elements[left] = null;
         left = add(left);
-        ensureCapacity(--size);
+        size--;
+        ensureCapacity(size);
         return ans;
     }
 
-    public int size() {
+    public static int size() {
         return size;
     }
 
-    public boolean isEmpty() {
+    public static boolean isEmpty() {
         return size == 0;
     }
 
     public void clear() {
-        ensureCapacity(1);
+        elements = new Object[5];
         size = left = right = 0;
     }
 
