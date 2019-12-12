@@ -55,8 +55,7 @@ public class ArrayQueue {
         size = left = right = 0;
     }
 
-    public void write()
-    {
+    public void write() {
         assert size > 0;
         for(int i = 0; i < this.size; ++i)
         {
